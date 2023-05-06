@@ -2,8 +2,8 @@
 using ExampleProject.Data.Abstract;
 using ExampleProject.Entities.Concrete;
 
-namespace ExampleProject.Data.Concrete;
+namespace ExampleProject.Data.Concrete.Repositories;
 
-public sealed class RoleRepository : EFEntityRepositoryBase<Role>,IRoleRepository
+public sealed class RoleRepository : EFEntityRepositoryBase<Role>, IRoleRepository
 {
 }

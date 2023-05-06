@@ -3,7 +3,7 @@ using ExampleProject.Data.Abstract;
 using ExampleProject.Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 
-namespace ExampleProject.Data.Concrete;
+namespace ExampleProject.Data.Concrete.Repositories;
 
 public sealed class UserRepository : EFEntityRepositoryBase<User>, IUserRepository
 {
